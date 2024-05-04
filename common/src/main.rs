@@ -1,5 +1,6 @@
 fn main() {
-    shadowing()
+    let x = sum(3,4);
+    println!("hello, {x} !")
 }
 
 fn mutability() {
@@ -22,4 +23,8 @@ fn shadowing() {
     }
 
     println!("Hello, outer scope's {x}!");
+}
+
+fn sum(x :i32, y :i32) -> i32 {
+    x + y
 }
