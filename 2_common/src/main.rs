@@ -1,6 +1,7 @@
 fn main() {
-    let x = sum(3,4);
-    println!("hello, {x} !")
+    // let x = sum(3,4);
+    // println!("hello, {x} !")
+    mutability()
 }
 
 fn mutability() {
